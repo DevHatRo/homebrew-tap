@@ -5,21 +5,21 @@
 class TfStateMove < Formula
   desc "A tool to move resources between Terraform state files"
   homepage "https://github.com/DevHatRo/tf-state-move"
-  version "1.0.17"
+  version "1.0.18"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/DevHatRo/tf-state-move/releases/download/v1.0.17/tf-state-move_1.0.17_Darwin_x86_64.tar.gz"
-      sha256 "c4e7e2982a9aad7b4a926217d87fab626682c5d1e7808f90fb027eea5af40493"
+      url "https://github.com/DevHatRo/tf-state-move/releases/download/v1.0.18/tf-state-move_1.0.18_Darwin_x86_64.tar.gz"
+      sha256 "4676ae3641c6902047b8e3c996ed69fca603240db7db6bf0bf55ce3a77478e8c"
 
       def install
         bin.install "tf-state-move"
       end
     end
     on_arm do
-      url "https://github.com/DevHatRo/tf-state-move/releases/download/v1.0.17/tf-state-move_1.0.17_Darwin_arm64.tar.gz"
-      sha256 "ce80c2605e666cbe3be5397005eaf582a071b337fe1fbeff955c62fb316a17ae"
+      url "https://github.com/DevHatRo/tf-state-move/releases/download/v1.0.18/tf-state-move_1.0.18_Darwin_arm64.tar.gz"
+      sha256 "b8929b288d5a5ce2026274aa28bc75d60bf079aed6516daed34ed70a2b44a167"
 
       def install
         bin.install "tf-state-move"
@@ -30,8 +30,8 @@ class TfStateMove < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/DevHatRo/tf-state-move/releases/download/v1.0.17/tf-state-move_1.0.17_Linux_x86_64.tar.gz"
-        sha256 "4a66313e3e417c4621e2f7574e9993d298fa4afacac085d92d3420f4b232829e"
+        url "https://github.com/DevHatRo/tf-state-move/releases/download/v1.0.18/tf-state-move_1.0.18_Linux_x86_64.tar.gz"
+        sha256 "78d53183e5499cd35686d9858a46c9ac9d9b8c0ba77df31fc75f13f717575d27"
 
         def install
           bin.install "tf-state-move"
@@ -40,8 +40,8 @@ class TfStateMove < Formula
     end
     on_arm do
       if !Hardware::CPU.is_64_bit?
-        url "https://github.com/DevHatRo/tf-state-move/releases/download/v1.0.17/tf-state-move_1.0.17_Linux_armv6.tar.gz"
-        sha256 "d2b99974ad80d7ad0a8dbd5d077f50923e3fc771e79201aadb9d7d3a76a09557"
+        url "https://github.com/DevHatRo/tf-state-move/releases/download/v1.0.18/tf-state-move_1.0.18_Linux_armv6.tar.gz"
+        sha256 "3b8d9577bf0551433d7b67c6c053d92ae51c3c514f8d2910e345003c7cd4589f"
 
         def install
           bin.install "tf-state-move"
@@ -50,8 +50,8 @@ class TfStateMove < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/DevHatRo/tf-state-move/releases/download/v1.0.17/tf-state-move_1.0.17_Linux_arm64.tar.gz"
-        sha256 "ef25b15156056f2663ca4bc2c53bcb8a8ce75feaf59e936767f76ad70dc84d85"
+        url "https://github.com/DevHatRo/tf-state-move/releases/download/v1.0.18/tf-state-move_1.0.18_Linux_arm64.tar.gz"
+        sha256 "a874105afd3cdc25b45962d32fcef987884f51112afbea200ac95c455c5b8094"
 
         def install
           bin.install "tf-state-move"
